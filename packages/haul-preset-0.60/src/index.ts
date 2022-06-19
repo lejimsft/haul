@@ -2,7 +2,7 @@ import { withPolyfillsFactory, makeConfigFactory } from '@haul-bundler/core';
 import getDefaultConfig from './defaultConfig';
 
 function resolvePolyfill(name: string) {
-  const filename = `react-native/Libraries/polyfills/${name}.js`;
+  const filename = `@react-native/polyfills/${name}.js`;
   const searchPaths = [...module.paths, process.cwd()];
   try {
     return require.resolve(filename, { paths: searchPaths });
