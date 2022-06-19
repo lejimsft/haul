@@ -377,7 +377,7 @@ export default function initCommand(runtime: Runtime) {
         const babelPreset = '@haul-bundler/babel-preset-react-native';
         const haulPreset = await getAvailableHaulPreset(
           progress,
-          `@haul-bundler/preset-${rnVersion!.major}.${rnVersion!.minor}`
+          `@lejimsft/haul-bundler-preset-${rnVersion!.major}.${rnVersion!.minor}`
         );
 
         progress.info(`Using Haul preset: ${haulPreset}`);
