@@ -1,6 +1,6 @@
 {
-  "version": "0.18.1",
-  "name": "@lejimsft/haul-bundler-presetgit-0.59",
+  "version": "0.18.2",
+  "name": "@lejimsft/haul-bundler-preset-0.59",
   "description": "Haul preset for React Native 0.59",
   "main": "build/index.js",
   "files": [
