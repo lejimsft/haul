@@ -1,6 +1,6 @@
 {
-  "version": "0.23.0",
-  "name": "@haul-bundler/cli",
+  "version": "0.23.1",
+  "name": "@lejimsft/haul-bundler-cli",
   "description": "Haul is a new command line tools for React Native",
   "bin": {
     "haul": "./bin/haul.js"
